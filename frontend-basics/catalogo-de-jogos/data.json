@@ -1,0 +1,177 @@
+[
+  {
+    "nome": "Super Mario Bros 3",
+    "data": "1988",
+    "descrição": "Um dos jogos de plataforma mais aclamados para o Nintendo Entertainment System (NES).",
+    "link": "https://en.wikipedia.org/wiki/Super_Mario_Bros._3",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/a5/Super_Mario_Bros._3_coverart.png"
+  },
+  {
+    "nome": "The Legend of Zelda: Ocarina of Time",
+    "data": "1998",
+    "descrição": "Um marco dos jogos 3D de ação e aventura, lançado para Nintendo 64.",
+    "link": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/1/17/The_Legend_of_Zelda_Ocarina_of_Time_capa.png"
+  },
+  {
+    "nome": "Pac-Man",
+    "data": "1980",
+    "descrição": "Clássico jogo de arcade onde o jogador come pontos enquanto evita fantasmas.",
+    "link": "https://en.wikipedia.org/wiki/Pac-Man",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pac-Man_Cutscene.svg/960px-Pac-Man_Cutscene.svg.png"
+  },
+  {
+    "nome": "Tetris",
+    "data": "1984",
+    "descrição": "Famoso jogo de quebra-cabeça soviético que envolve encaixar blocos de formas variadas.",
+    "link": "https://en.wikipedia.org/wiki/Tetris",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/500px-Typical_Tetris_Game.svg.png"
+  },
+  {
+    "nome": "Sonic the Hedgehog",
+    "data": "1991",
+    "descrição": "O primeiro jogo estrelando o mascote azul da SEGA, conhecido pela sua velocidade.",
+    "link": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/f/f4/Sonic_modern_and_classic_designs.png"
+  },
+  {
+    "nome": "Street Fighter II",
+    "data": "1991",
+    "descrição": "Revolucionário jogo de luta que estabeleceu o formato de torneios modernos.",
+    "link": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/0/04/Flyer_japan_sf2.jpg"
+  },
+  {
+    "nome": "Doom",
+    "data": "1993",
+    "descrição": "Pioneiro dos jogos de tiro em primeira pessoa (FPS), popularizando o gênero.",
+    "link": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/5/57/Doom_cover_art.jpg"
+  },
+  {
+    "nome": "Final Fantasy VII",
+    "data": "1997",
+    "descrição": "RPG japonês que marcou a transição da série para gráficos 3D e o PlayStation.",
+    "link": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/4/4f/FF7_ps.jpg"
+  },
+  {
+    "nome": "Pong",
+    "data": "1972",
+    "descrição": "Um dos primeiros jogos de arcade, simulando o tênis de mesa em duas dimensões.",
+    "link": "https://en.wikipedia.org/wiki/Pong",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pong.png"
+  },
+  {
+    "nome": "Space Invaders",
+    "data": "1978",
+    "descrição": "Influente jogo de tiro fixo que deu início à era de ouro dos jogos de arcade.",
+    "link": "https://en.wikipedia.org/wiki/Space_Invaders",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Space_Invaders_Arcade_Game.jpg"
+  },
+  {
+    "nome": "Minecraft",
+    "data": "2011",
+    "descrição": "Um jogo sandbox de construção e aventura desenvolvido pela Mojang Studios.",
+    "link": "https://pt.wikipedia.org/wiki/Minecraft",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png"
+  },
+  {
+    "nome": "Chrono Trigger",
+    "data": "1995",
+    "descrição": "RPG clássico da Square Enix conhecido por seu sistema de combate inovador e viagens no tempo.",
+    "link": "https://pt.wikipedia.org/wiki/Chrono_Trigger",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/a7/Chrono_Trigger.jpg"
+  },
+  {
+    "nome": "Diablo II",
+    "data": "2000",
+    "descrição": "RPG de ação hack and slash focado em combate, masmorras e coleta de itens épicos.",
+    "link": "https://pt.wikipedia.org/wiki/Diablo_II",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/4/4c/Diablo_II_PC_capa.jpg"
+  },
+  {
+    "nome": "Elden Ring",
+    "data": "2022",
+    "descrição": "RPG de ação com vasto mundo aberto, mantendo a dificuldade característica da FromSoftware.",
+    "link": "https://en.wikipedia.org/wiki/Elden_Ring",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/0/0d/Elden_Ring_capa.jpg"
+  },
+ {
+    "nome": "Castlevania: Symphony of the Night",
+    "data": "1997",
+    "descrição": "Estabeleceu o subgênero \"Metroidvania\" com exploração não linear.",
+    "link": "https://en.wikipedia.org/wiki/Castlevania:_Symphony_of_the_Night",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/e0/Castlevania_Symphony_of_the_Night_Capa.jpg"
+  },
+  {
+    "nome": "Bioshock",
+    "data": "2007",
+    "descrição": "FPS narrativo ambientado na cidade subaquática distópica de Rapture.",
+    "link": "https://en.wikipedia.org/wiki/BioShock",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/6/6d/BioShock_cover.jpg"
+  },
+  {
+    "nome": "Grand Theft Auto V",
+    "data": "2013",
+    "descrição": "Aventura de ação em mundo aberto ambientada na cidade fictícia de Los Santos, com três protagonistas jogáveis.",
+    "link": "https://www.rockstargames.com/gta-v",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/8/80/Grand_Theft_Auto_V_capa.png"
+  },
+  {
+    "nome": "The Witcher 3: Wild Hunt",
+    "data": "2015",
+    "descrição": "RPG de ação em mundo aberto aclamado pela crítica, baseado nos livros de Andrzej Sapkowski.",
+    "link": "https://thewitcher.com/en/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/0/06/TW3_Wild_Hunt.png"
+  },
+  {
+    "nome": "Red Dead Redemption 2",
+    "data": "2018",
+    "descrição": "Aventura épica de faroeste, servindo como prequel para o jogo Red Dead Redemption.",
+    "link": "https://www.rockstargames.com/rdr2",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/e7/Red_Dead_Redemption_2.png"
+  },
+  {
+    "nome": "Half-Life 2",
+    "data": "2004",
+    "descrição": "FPS altamente influente, conhecido por sua narrativa, física avançada e design de níveis.",
+    "link": "https://store.steampowered.com/app/220/HalfLife_2/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/2/25/Half-Life_2_cover.jpg"
+  },
+  {
+    "nome": "Portal 2",
+    "data": "2011",
+    "descrição": "Jogo de quebra-cabeças em primeira pessoa focado em manipular portais no espaço e tempo.",
+    "link": "https://store.steampowered.com/app/620/Portal_2/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/f/f9/Portal2cover.jpg"
+  },
+  {
+    "nome": "God of War (2018)",
+    "data": "2018",
+    "descrição": "Reinicialização da série, levando Kratos e seu filho Atreus para o reino da mitologia nórdica.",
+    "link": "https://www.playstation.com/en-us/games/god-of-war/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png"
+  },
+  {
+    "nome": "Resident Evil 4",
+    "data": "2005",
+    "descrição": "Survival horror que revolucionou o gênero com sua perspectiva de câmera sobre o ombro e ação intensa.",
+    "link": "https://www.residentevil.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/9/91/Resident_Evil_4_-_North-american_cover.jpg"
+  },
+  {
+    "nome": "World of Warcraft",
+    "data": "2004",
+    "descrição": "MMORPG de fantasia que domina o gênero desde seu lançamento, ambientado no universo de Azeroth.",
+    "link": "https://worldofwarcraft.blizzard.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/9/91/WoW_Box_Art1.jpg"
+  },
+  {
+    "nome": "Metroid Prime",
+    "data": "2002",
+    "descrição": "Aventura de ação em primeira pessoa que expandiu dramaticamente a série Metroid com exploração 3D.",
+    "link": "https://www.nintendo.com/games/detail/metroid-prime-switch/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/d/df/Metroid_Prime_capa.png"
+  }
+]
