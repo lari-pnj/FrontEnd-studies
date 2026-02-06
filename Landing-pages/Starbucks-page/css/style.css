@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(navbar.css);
+:root {
+    --color-neutral-0: #FFFFFF;
+    --color-neutral-1: #eee4db;
+    --color-neutral-2: #d4c3b6;
+    --color-neutral-3: #b8a99e;
+    --color-neutral-4: #9e8f85;
+    --color-neutral-5: #7e6e65;
+    --color-neutral-6: #5e4e45;
+    --color-neutral-7: #3e2e25;
+    --color-neutral-8: #1e0e05;
+    --color-neutral-9: #000000;
+
+    --color-primary-1: #34815d;
+    --color-primary-2: #2c6e4f;
+    --color-primary-3: #245c42;
+    
+    --color-secondary-1: #f5c518;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+#container {
+    background-image: url('../assents/background-mobile.png');
+    background-size: contain;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--color-neutral-8);
+    font-weight: 700;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: var(--color-primary-1);
+        position: absolute;
+        bottom: 0;
+        border-radius: 30px;
+    }
+}
+
+a.btn-default {
+    text-decoration: none;
+}
+
+.btn, .btn-default {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+.btn-mobile {
+    font-size: 1.5rem;
+}
+.btn-default {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-0);
+
+    &:hover {
+        background-color: var(--color-neutral-2);
+    }
+}
+
+.btn-outlined {
+    background-color: transparent;
+    color: var(--color-primary-1);
+    border: 2px solid var(--color-primary-1);
+
+    &:hover {
+        background-color: var(--color-primary-1);
+        color: var(--color-neutral-0);
+    }
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    min-height: calc(100vh - 96px);
+    padding: 32px 4%;
+    padding-top: clamp(0px, 5vw, 32px);
+
+    .home-image {
+        width: clamp(300px, 50%, 400px);
+    }
+
+    .home-title {
+        color: var(--color-neutral-8);
+        text-align: center;
+        font-size: clamp(3rem, 5vw, 4.3rem);
+        text-transform: uppercase;
+        line-height: 1.2;
+        max-width: 700px;
+
+        span {
+            color: var(--color-primary-1);
+        }
+    }
+
+    .home-description {
+        color: var(--color-neutral-9);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        max-width: 600px;
+    }
+
+    .home-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 12px;
+    }
+    
+}
+
+#trending {
+    padding: 32px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    min-height: calc(100vh - 96px);
+
+    .trending-cards {
+        .trending-card {
+            position: relative;
+
+            img {
+                width: clamp(300px, 5vw, 600px);
+            }
+
+            .trending-rate {
+                background-color: var(--color-neutral-0);
+                position: absolute;
+                bottom: 70px;
+                right: 30px;
+                padding: 5px 10px;
+                border-radius: 5px;
+
+                i {
+                    color: var(--color-secondary-1);
+                }
+            }
+
+            .trending-card-description {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: var(--color-neutral-8);
+
+                span {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: var(--color-neutral-7);
+                }
+            }
+        }
+    }
+}
+
+#about {
+    padding: 32px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-1);
+    background-image: url(../assents/about/bg-about.png);
+    min-height: calc(100vh - 96px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+
+    .title{
+        color: var(--color-neutral-0);
+
+        &::before {
+            background-color: var(--color-secondary-1);
+        }
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+
+        .about-image {
+            width: clamp(300px, 50vw, 500px);
+        }
+
+        .about-info {
+            padding: 24px;
+            border-radius: 20px;
+            background-color: var(--color-primary-2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+            h3 {
+                color: var(--color-neutral-0);
+                font-size: 1.8rem;
+                margin-bottom: 4px;
+
+                span {
+                    color: var(--color-secondary-1);
+                }
+            }
+
+            p {
+                color: var(--color-neutral-0);
+                font-size: 1rem;
+
+                span {
+                    color: var(--color-secondary-1);
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+#products{
+    padding: 48px 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+
+    .products-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
+
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--color-primary-1);
+            background-image: url(../assents/products/background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 16px;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            img {
+                width: 300px;
+                position: relative;
+                top: -70px;
+                filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+            }
+
+            .product-content {
+                margin-top: -70px;
+
+                h3 {
+                    color: var(--color-neutral-0);
+                    font-size: 1.8rem;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+
+                    span {
+                        color: var(--color-secondary-1);
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+footer {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-0);
+    text-align: center;
+    padding: 12px;
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 768px) {
+    #container{
+        background-image: url(../assents/background-desktop.png);
+        background-size: cover;
+        background-position: start;
+        background-repeat: no-repeat;
+    }
+    #trending {
+        .trending-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+    }
+
+    #products {
+        min-height: 100vh;
+        gap: 8rem;
+
+        .products-cards {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+
+            .product-card {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width: 1200px) {
+    #about {
+        margin: 4%;
+        justify-content: center;
+
+        .about-content{
+            flex-direction: row;
+            align-items: center;
+            gap: 48px;
+        }
+
+        .about-image{
+            order: 1;
+        }
+
+        .about-info:first-child{
+            order: 2;
+        }
+
+        .about-info:last-child{
+            order: 3;
+        }
+    }
+}
